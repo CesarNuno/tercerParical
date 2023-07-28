@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">tercerParical</string>
+    <string name="pokedex">Pokedex</string>
+    <string name="pokemon">Pokemon</string>
+    <string name="base_url_pokemon">https://pokeapi.co/api/v2/</string>
+    <string name="menus">Menus</string>
+</resources>

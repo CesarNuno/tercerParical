@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ctPreTexto"
+        android:title="Sin pretexto"/>
+    <item
+        android:id="@+id/ctVerInfo"
+        android:title="Ver Información"/>
+    <item
+        android:id="@+id/ctCopiar"
+        android:title="Copiar"/>
+    <item
+        android:id="@+id/ctBuscar"
+        android:title="Buscar"/>
+</menu>
