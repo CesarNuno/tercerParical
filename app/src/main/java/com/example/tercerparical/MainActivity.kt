@@ -17,5 +17,8 @@ class MainActivity : AppCompatActivity() {
         binding.btnMenus.setOnClickListener {
             startActivity(Intent(this, MenuActivity::class.java))
         }
+        binding.btnRoom.setOnClickListener {
+            startActivity(Intent(this, roomActivity::class.java))
+        }
     }
 }

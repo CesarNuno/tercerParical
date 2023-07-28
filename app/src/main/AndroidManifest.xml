@@ -15,6 +15,9 @@
         android:theme="@style/Theme.TercerParical"
         tools:targetApi="31">
         <activity
+            android:name=".roomActivity"
+            android:exported="false" />
+        <activity
             android:name=".MenuActivity"
             android:exported="false" />
         <activity

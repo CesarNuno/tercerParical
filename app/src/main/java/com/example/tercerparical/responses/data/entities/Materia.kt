@@ -8,5 +8,5 @@ import androidx.room.PrimaryKey
 data class Materia(
     @PrimaryKey(autoGenerate = true) val id:Int,
     @ColumnInfo(name="nombre") val nombre:String,
-    @ColumnInfo(name = "idMaestro") val maestro:Int
+    @ColumnInfo(name = "idMaestro") val maestro:Int?
 )

@@ -4,26 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".roomActivity"
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/btnPokedex"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pokedex"
-        />
-
-    <Button
-        android:id="@+id/btnMenus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/menus"
-        />
+        android:id="@+id/agregarUsuario"
+        android:text="Agregar Usuario"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnRoom"
-        android:text="Database"
-        />
+        android:id="@+id/actualizarUsuario"
+        android:text="Actualizar Usuario"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/borrarUsuario"
+        android:text="Borrar Usuario"/>
 </LinearLayout>
